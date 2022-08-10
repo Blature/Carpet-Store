@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فرش مجید دلبندم</title>
+    <title>فرش مجید </title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark"style="background-color: #172B40;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">  فرش مجید</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">خانه</a>
+          <a class="nav-link" href="#aboutus">درباره ما</a>
+          <a class="nav-link" href="#products">محصولات</a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <a class="nav-link" href="#">ورود</a>
+      <a href="#"><button class="btn d-flex" type="submit"><img src="images/avatar.png" class="avatar"></button></a>
+    </div>
+  </nav>
             <div class="hero">
                 <img src="images/moharam-sell.png" alt="" class="background">
             </div>
@@ -33,7 +53,7 @@
                     </div>
                     <div class="col-6 col-sm-6 col-lg-3">
                         <img src="images/farsh1.svg" alt="" class="svg">
-                        <h4>فرش ماشینی</h4>
+                        <h4 id="aboutus">فرش ماشینی</h4>
                         <p>.انواع فرش ماشینی تولید شده با آخرین تکنولوژی روز دنیا</p>
                     </div>
                 </div>
@@ -68,9 +88,7 @@
                             <div class="sec3-title">
                                 <h2>جدیدترین فرش ها</h2>
                             </div>
-                            <div class="col-12 col-lg-4 d-lg-none">
-                                <img src="images/0-100-webdesign-course-webkima_com-510x530.jpg" alt="">
-                            </div>
+                            
                             <div class="col-12 col-lg-7">
                                 <h4>فرش کلاسیک طرح لعیا</h4>
                                 <p class="price">4,900,000 تومان</p>
@@ -85,9 +103,11 @@
                         </div>
                     </div>
             </div>
+            
             <div class="section4">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row" id="products">
+                      
                         <div class="col-12 col-md-6 col-lg-3">
                             <img src="images/farsh1.jpg" alt="">
                             <h4>فرش کلاسیک طرح لعیا</h4>
@@ -140,24 +160,7 @@
                 </div>
             </div>
             
-            <!-- <div class="section6">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="sec6-title">
-                         
-                        </div>                                                     
-                            <div class="col-12 col-md-2 d-none d-md-block">
-                                <img src="" alt="">
-                            </div>                                                      
-                            <div class="col-12 col-md-2 d-none d-md-block">
-                                <img src="" alt="">
-                            </div>                  
-                            <div class="col-12 col-md-2 d-none d-md-block">
-                                <img src="" alt="">
-                            </div>                            
-                    </div>
-                </div>
-            </div> -->
+           
             <div class="section7">
                 <div class="container-fluid">
                     <div class="row">
@@ -235,6 +238,7 @@
             </div>
     </div>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
